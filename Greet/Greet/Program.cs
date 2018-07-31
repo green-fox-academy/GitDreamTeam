@@ -12,7 +12,7 @@ namespace Greet
         {
             Console.WriteLine(Greet("Andrew"));
             Console.WriteLine(Count(451245));
-            Console.WriteLine(Cheer("C# <3"));
+            Console.WriteLine(Cheer("C# <3 dzgfskmlhéíernjk"));
             Console.WriteLine(Future("virgin"));
             Console.ReadLine();
         }
