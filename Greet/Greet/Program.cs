@@ -27,9 +27,9 @@ namespace Greet
             return age + " 5";
         }
 
-        private static string Cheer(string language)
+        private static string Cheer(string language, string teamName)
         {
-            return language;
+            return language + " " + teamName;
         }
         private static string Future(string horoscope)
         {
