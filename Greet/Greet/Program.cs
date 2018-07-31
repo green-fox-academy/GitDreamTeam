@@ -23,7 +23,7 @@ namespace Greet
 
         private static string Count(int age)
         {
-            return age + " 5";
+            return age + " 6";
         }
 
         private static string Cheer(string teamName)
