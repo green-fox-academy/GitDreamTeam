@@ -10,15 +10,16 @@ namespace Greet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Greet("Andrew"));
+            Console.WriteLine(Greet("Welcome"));
             Console.WriteLine(Count(451245));
+            Console.WriteLine(Cheer("C# <3 dzgfskmlhéíernjk"));
             Console.WriteLine(Future("virgin"));
             Console.ReadLine();
         }
 
-        private static string Greet(string name)
+        private static string Greet(string greetings)
         {
-            return name;
+            return greetings;
         }
 
         private static string Count(int age)
@@ -26,9 +27,9 @@ namespace Greet
             return age + " 6";
         }
 
-        private static string Cheer(string teamName)
+        private static string Cheer(string language)
         {
-            return teamName;
+            return language;
         }
         private static string Future(string horoscope)
         {
