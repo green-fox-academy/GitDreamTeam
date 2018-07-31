@@ -12,7 +12,7 @@ namespace Greet
         {
             Console.WriteLine(Greet("Andrew"));
             Console.WriteLine(Count(451245));
-            Console.WriteLine(Future());
+            Console.WriteLine(Future("virgin"));
             Console.ReadLine();
         }
 
@@ -30,9 +30,9 @@ namespace Greet
         {
             return teamName;
         }
-        private static string Future()
+        private static string Future(string horoscope)
         {
-            return "I am a virgin.";
+            return horoscope;
         }
     }
 }
