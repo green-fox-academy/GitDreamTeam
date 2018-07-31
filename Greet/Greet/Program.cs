@@ -10,7 +10,7 @@ namespace Greet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Greet("Welcome"));
+            Console.WriteLine(Greet("Helloka"));
             Console.WriteLine(Count(451245));
             Console.WriteLine(Cheer("csharpka"));
             Console.WriteLine(Future("virgin"));
