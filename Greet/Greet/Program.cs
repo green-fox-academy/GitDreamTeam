@@ -10,7 +10,7 @@ namespace Greet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Greet("Welcome", "Yolo"));
+            Console.WriteLine(Greet("Yolo"));
             Console.WriteLine(Count(451245));
 <<<<<<< HEAD
             Console.WriteLine(Cheer("C# <3 dzgfskmlhéíernjk"));
@@ -22,9 +22,9 @@ namespace Greet
             Console.ReadLine();
         }
 
-        private static string Greet(string greetings, string something)
+        private static string Greet(string something)
         {
-            return greetings + something;
+            return "Greetings for" + something;
         }
 
         private static string Count(int age)
