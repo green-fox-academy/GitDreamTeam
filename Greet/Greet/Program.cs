@@ -10,15 +10,15 @@ namespace Greet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Greet());
+            Console.WriteLine(Greet("Andrew"));
             Console.WriteLine(Count());
             Console.WriteLine(Future());
             Console.ReadLine();
         }
 
-        private static string Greet()
+        private static string Greet(string name)
         {
-            return "Hello Andrew!";
+            return name;
         }
 
         private static string Count()
