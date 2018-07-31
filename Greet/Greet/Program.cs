@@ -12,6 +12,8 @@ namespace Greet
         {
             Console.WriteLine(Greet("Helloka"));
             Console.WriteLine(Count(451245));
+            Console.WriteLine(Cheer("C# <3 dzgfskmlhéíernjk"));
+            Console.WriteLine(Future("virgin", 30));
             Console.WriteLine(Cheer("C# <3 dzgfskmlhéíernjk", "valami"));
             Console.WriteLine(Future("virgin", 30, "Ez szomoru"));
             Console.ReadLine();
@@ -26,7 +28,6 @@ namespace Greet
         {
             return age + " 6";
         }
-
         private static string Cheer(string language, string teamName)
         {
             return language + " " + teamName;
