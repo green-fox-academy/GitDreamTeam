@@ -11,12 +11,18 @@ namespace Greet
         static void Main(string[] args)
         {
             Console.WriteLine(Greet());
+            Console.WriteLine(Count());
             Console.ReadLine();
         }
 
         private static string Greet()
         {
             return "Hello Andrew!";
+        }
+
+        private static string Count()
+        {
+            return "I'm 145618668 years old! :/";
         }
     }
 }
