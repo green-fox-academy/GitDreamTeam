@@ -12,14 +12,14 @@ namespace Greet
         {
             Console.WriteLine(Greet("Helloka"));
             Console.WriteLine(Count(451245));
-            Console.WriteLine(Cheer("csharpka"));
-            Console.WriteLine(Future("virgin"));
+            Console.WriteLine(Cheer("C# <3 dzgfskmlhéíernjk", "valami"));
+            Console.WriteLine(Future("virgin", 30, "Ez szomoru"));
             Console.ReadLine();
         }
 
-        private static string Greet(string greetings)
+        private static string Greet(string something)
         {
-            return greetings;
+            return "Greetings for" + something;
         }
 
         private static string Count(int age)
@@ -27,13 +27,13 @@ namespace Greet
             return age + " 6";
         }
 
-        private static string Cheer(string language)
+        private static string Cheer(string language, string teamName)
         {
-            return language;
+            return language + " " + teamName;
         }
-        private static string Future(string horoscope)
+        private static string Future(string horoscope, int age, string input)
         {
-            return horoscope;
+            return "My horoscope is " + horoscope + " and my age is " + age + input;
         }
     }
 }
