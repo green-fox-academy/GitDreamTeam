@@ -12,6 +12,7 @@ namespace Greet
         {
             Console.WriteLine(Greet());
             Console.WriteLine(Count());
+            Console.WriteLine(Future());
             Console.ReadLine();
         }
 
@@ -28,6 +29,10 @@ namespace Greet
         private static string Cheer()
         {
             return "G$tDrEaMtEaM";
+        }
+        private static string Future()
+        {
+            return "I am a virgin.";
         }
     }
 }
