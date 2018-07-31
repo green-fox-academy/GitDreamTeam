@@ -24,5 +24,10 @@ namespace Greet
         {
             return "I'm 145618668 years old! :/";
         }
+
+        private static string Cheer()
+        {
+            return "G$tDrEaMtEaM";
+        }
     }
 }
