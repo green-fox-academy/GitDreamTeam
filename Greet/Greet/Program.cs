@@ -11,7 +11,7 @@ namespace Greet
         static void Main(string[] args)
         {
             Console.WriteLine(Greet("Andrew"));
-            Console.WriteLine(Count());
+            Console.WriteLine(Count(451245));
             Console.WriteLine(Future());
             Console.ReadLine();
         }
@@ -21,9 +21,9 @@ namespace Greet
             return name;
         }
 
-        private static string Count()
+        private static int Count(int age)
         {
-            return "I'm 145618668 years old! :/";
+            return age;
         }
 
         private static string Cheer()
