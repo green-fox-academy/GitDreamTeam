@@ -10,21 +10,21 @@ namespace Greet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Greet("Andrew"));
+            Console.WriteLine(Greet("Welcome", "Yolo"));
             Console.WriteLine(Count(451245));
-            Console.WriteLine(Cheer("C# <3"));
+            Console.WriteLine(Cheer("csharpka"));
             Console.WriteLine(Future("virgin"));
             Console.ReadLine();
         }
 
-        private static string Greet(string name)
+        private static string Greet(string greetings, string something)
         {
-            return name;
+            return greetings + something;
         }
 
         private static string Count(int age)
         {
-            return age + " 5";
+            return age + " 6";
         }
 
         private static string Cheer(string language, string teamName)
