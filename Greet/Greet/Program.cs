@@ -12,7 +12,7 @@ namespace Greet
         {
             Console.WriteLine(Greet("Welcome"));
             Console.WriteLine(Count(451245));
-            Console.WriteLine(Cheer("C# <3 dzgfskmlhéíernjk"));
+            Console.WriteLine(Cheer("Cheer"));
             Console.WriteLine(Future("virgin", 30));
             Console.ReadLine();
         }
@@ -27,9 +27,9 @@ namespace Greet
             return age + " 5";
         }
 
-        private static string Cheer(string language)
+        private static string Cheer(string cheering)
         {
-            return language;
+            return cheering;
         }
         private static string Future(string horoscope, int age)
         {
